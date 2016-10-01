@@ -12,6 +12,7 @@
 		B0A764D81D9FE91C00537E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A764D61D9FE91C00537E66 /* Main.storyboard */; };
 		B0A764DA1D9FE91C00537E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A764D91D9FE91C00537E66 /* Assets.xcassets */; };
 		B0A764DD1D9FE91C00537E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A764DB1D9FE91C00537E66 /* LaunchScreen.storyboard */; };
+		B0A764E51D9FEA4700537E66 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A764E41D9FEA4700537E66 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B0A764D91D9FE91C00537E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A764DC1D9FE91C00537E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A764DE1D9FE91C00537E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A764E41D9FEA4700537E66 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				B0A764D21D9FE91C00537E66 /* AppDelegate.swift */,
-				B0A764D41D9FE91C00537E66 /* ViewController.swift */,
 				B0A764D61D9FE91C00537E66 /* Main.storyboard */,
+				B0A764D41D9FE91C00537E66 /* ViewController.swift */,
+				B0A764E41D9FEA4700537E66 /* ResultViewController.swift */,
 				B0A764D91D9FE91C00537E66 /* Assets.xcassets */,
 				B0A764DB1D9FE91C00537E66 /* LaunchScreen.storyboard */,
 				B0A764DE1D9FE91C00537E66 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				B0A764D51D9FE91C00537E66 /* ViewController.swift in Sources */,
 				B0A764D31D9FE91C00537E66 /* AppDelegate.swift in Sources */,
+				B0A764E51D9FEA4700537E66 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
